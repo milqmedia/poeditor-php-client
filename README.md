@@ -62,3 +62,4 @@ $project->getDefinitions($languageCode);
 The files in this project are released under the unjudder license.
 Please find a copy of this license bundled with this package in the file `LICENSE.md`.
 Our License is also available through the web at: http://unjudder.com/license/new-bsd.
+
