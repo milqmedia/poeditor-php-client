@@ -25,6 +25,11 @@ class Project extends AbstractEntity
 	 * @var string
 	 */
 	protected $public = null;
+	
+	/**
+	 * @var boolean
+	 */
+	protected $open = true;
 
 	/**
 	 * @var string
@@ -45,6 +50,22 @@ class Project extends AbstractEntity
 	public function setId($id)
 	{
 		$this->id = $id;
+	}
+	
+	/**
+	 * @return boolean $open
+	 */
+	public function getOpen()
+	{
+		return (bool) $this->open;
+	}
+
+	/**
+	 * @param boolean $open
+	 */
+	public function setOpen($open)
+	{
+		$this->open = (bool) $open;
 	}
 
 	/**
