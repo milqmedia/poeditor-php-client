@@ -40,7 +40,17 @@ class Term extends AbstractEntity
 	 * @var string
 	 */
 	protected $plural = null;
-
+	
+	/**
+	 * @return object Uj\Poed\Entity\Term
+	 */
+	public function __construct($term = null) {
+		
+		$this->setTerm($term);
+		
+		return $this;
+	}
+	
 	/**
 	 * @return string $term
 	 */
