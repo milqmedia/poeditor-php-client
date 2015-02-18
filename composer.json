@@ -1,12 +1,12 @@
 {
-    "name": "unjudder/poeditor-api-client",
+    "name": "milqmedia/poeditor-api-client",
     "description": "Poeditor API Client",
     "keywords": [
         "Poeditor",
         "API",
         "API-Client"
     ],
-    "homepage": "https://github.com/unjudder/poeditor-php-client",
+    "homepage": "https://github.com/milqmedia/poeditor-php-client",
     "repositories": [{
         "type": "composer",
         "url": "http://packages.zendframework.com/"
