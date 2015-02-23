@@ -59,8 +59,7 @@ class Client
     protected $httpClient = null;
 
     protected $httpClientConfig = array(
-        'ssltransport' => 'sslv3',
-        'sslverifypeer' => false
+        'adapter' => 'Zend\Http\Client\Adapter\Curl'
     );
 
     public function __construct ($authToken, HttpClient $httpClient = null)
