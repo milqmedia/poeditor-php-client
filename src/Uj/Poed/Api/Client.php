@@ -61,7 +61,7 @@ class Client
     protected $httpClientConfig = array(
         'adapter' => 'Zend\Http\Client\Adapter\Curl'
     );
-
+    
     public function __construct ($authToken, HttpClient $httpClient = null)
     {
         $this->authToken = $authToken;
@@ -70,7 +70,16 @@ class Client
             $this->setHttpClient($httpClient);
         }
     }
-
+    
+    /**
+     *
+     * @param int $timeout            
+     */
+    public function setTimeout($timeout = 1000) {
+	    
+	    $this->httpClientConfig['timeout'] => $timeout;
+    }
+    
     /**
      *
      * @return \Zend\Http\Client
