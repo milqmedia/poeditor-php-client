@@ -77,7 +77,7 @@ class Client
      */
     public function setTimeout($timeout = 1000) {
 	    
-	    $this->httpClientConfig['timeout'] => $timeout;
+	    $this->httpClientConfig['timeout'] = $timeout;
     }
     
     /**
