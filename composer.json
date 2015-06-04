@@ -1,7 +1,6 @@
 {
     "name": "milqmedia/poeditor-api-client",
     "description": "Poeditor API Client",
-    "type": "zend-extra",
     "keywords": [
         "Poeditor",
         "API",
